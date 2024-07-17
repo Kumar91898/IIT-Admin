@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/blackwave"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="327dp"
+        android:layout_height="336dp"
+        android:src="@drawable/studentnew"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/addStudent"
+        android:layout_width="163dp"
+        android:layout_height="138dp"
+        android:background="@drawable/blakish"
+        android:fontFamily="@font/segoeuib"
+        android:paddingBottom="15dp"
+        android:text="@string/add_student"
+        android:drawableBottom="@drawable/add"
+        android:drawableTint="@color/white"
+        android:drawablePadding="5dp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_height="68dp"
+        android:fontFamily="@font/segoeuib"
+        android:gravity="center"
+        android:text="STUDENT'S MANAGEMENT"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <View
+        android:layout_width="255dp"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <TextView
+        android:id="@+id/Detail"
+        android:layout_width="354dp"
+        android:layout_height="56dp"
+        android:background="@drawable/greenish"
+        android:fontFamily="@font/segoeuib"
+        android:gravity="center"
+        android:text="@string/select_option_below"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="66dp"
+        android:layout_height="65dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <Button
+        android:id="@+id/updateStudent"
+        android:layout_width="163dp"
+        android:layout_height="138dp"
+        android:background="@drawable/blakish"
+        android:fontFamily="@font/segoeuib"
+        android:text="@string/update_student"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:paddingBottom="15dp"
+        android:drawableBottom="@drawable/check"
+        android:drawableTint="@color/white"
+        android:drawablePadding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <Button
+        android:id="@+id/deleteStudent"
+        android:layout_width="163dp"
+        android:layout_height="138dp"
+        android:background="@drawable/blakish"
+        android:fontFamily="@font/segoeuib"
+        android:text="Remove\nRecord"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:paddingBottom="15dp"
+        android:drawableBottom="@drawable/remove"
+        android:drawableTint="@color/white"
+        android:drawablePadding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.830" />
+
+    <Button
+        android:id="@+id/attendanceStudent"
+        android:layout_width="163dp"
+        android:layout_height="138dp"
+        android:background="@drawable/blakish"
+        android:fontFamily="@font/segoeuib"
+        android:text="@string/attendance"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:paddingBottom="15dp"
+        android:drawableBottom="@drawable/attendance"
+        android:drawableTint="@color/white"
+        android:drawablePadding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.830" />
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:paddingRight="32dp"
+        android:background="@color/blackish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/blakish"
+            android:fontFamily="@font/segoeuib"
+            android:text="@string/student_s_nmanagement"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/tManagement"
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/blakish"
+            android:fontFamily="@font/segoeuib"
+            android:text="@string/teacher_s_nmanagement"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="190dp"
+        android:layout_height="2dp"
+        android:background="@color/greenery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

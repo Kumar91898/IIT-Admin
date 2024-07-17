@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1013287209782",
+    "project_id": "iit-admin",
+    "storage_bucket": "iit-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013287209782:android:549aaea471c1aee4f60197",
+        "android_client_info": {
+          "package_name": "com.kumar.iitadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFatoRqhq9td4AE7ivfxmr_2Q3CLr92eU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

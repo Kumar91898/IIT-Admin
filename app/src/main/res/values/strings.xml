@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">IITAdmin</string>
+    <string name="email">Email</string>
+    <string name="iit_admin_portal">IIT Admin Portal</string>
+    <string name="enter_details_to_get_logged_in">Enter Details to get logged In!</string>
+    <string name="iit_admin">IIT ADMIN</string>
+    <string name="student_s_nmanagement">STUDENT\'S\nMANAGEMENT</string>
+    <string name="teacher_s_nmanagement">TEACHER\'S\nMANAGEMENT</string>
+    <string name="add_student">ADD\nSTUDENT</string>
+    <string name="update_student">CHECK\nRECORD</string>
+    <string name="attendance">Check\nATTENDANCE</string>
+    <string name="select_option_below">SELECT OPTION BELOW</string>
+    <string name="add_teacher">ADD TEACHER</string>
+    <string name="update_teacher">UPDATE TEACHER</string>
+    <string name="enter_the_details">ENTER THE DETAILS</string>
+    <string name="name">Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="contact">Contact</string>
+    <string name="course">Course</string>
+    <string name="female">FEMALE</string>
+    <string name="add_record">ADD RECORD</string>
+    <string name="add_new_record">ADD NEW RECORD</string>
+    <string name="enter_student_id">Enter student ID</string>
+    <string name="see_all_records">SEE ALL RECORDS</string>
+    <string name="update_record">UPDATE RECORD</string>
+    <string name="update_record2">UPDATE RECORD</string>
+    <string name="check_attendance">CHECK ATTENDANCE</string>
+    <string name="teacher_s_id">Teacher\'s ID</string>
+    <string name="subject">Subject</string>
+    <string name="enter_teacher_s_id">Enter teacher\'s ID</string>
+    <string name="about_me">ABOUT ME</string>
+    <string name="delete_record">DELETE RECORD</string>
+
+    <string-array name="course_array">
+        <item>Select Course</item>
+        <item>App Development</item>
+        <item>Web Development</item>
+        <item>MS Office</item>
+        <item>Graphic Designing</item>
+        <item>Cyber Security</item>
+        <item>Robotics</item>
+        <item>AutoCAD</item>
+    </string-array>
+
+    <string-array name="subject_array">
+        <item>Select Subject</item>
+        <item>App Development</item>
+        <item>Web Development</item>
+        <item>MS Office</item>
+        <item>Graphic Designing</item>
+        <item>Cyber Security</item>
+        <item>Robotics</item>
+        <item>AutoCAD</item>
+    </string-array>
+</resources>
